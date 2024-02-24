@@ -5,7 +5,7 @@ cloudstream {
     language = "en"
     // All of these properties are optional, you can safely remove them
 
-    description = "One Pace"
+    description = "Persian World"
     authors = listOf("KillerDogeEmpire")
 
     /**
@@ -17,8 +17,11 @@ cloudstream {
      * */
     status = 1 // will be 3 if unspecified
     tvTypes = listOf(
-        "Anime"
+        "AsianDrama",
+        "TvSeries",
+        "Anime",
+        "Movie",
     )
 
-    iconUrl = "https://raw.githubusercontent.com/Rowdy-Avocado/Rowdycado-Extensions/master/logos/onepace.png"
+    iconUrl = "https://raw.githubusercontent.com/NoMeatNo/Peravo2/master/logos/peravo2.png"
 }

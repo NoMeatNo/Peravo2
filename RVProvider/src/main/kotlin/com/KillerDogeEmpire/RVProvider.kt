@@ -23,23 +23,26 @@ import okhttp3.Interceptor
 import okhttp3.Response
 
 
-class OnePaceProvider : MainAPI() { // all providers must be an instance of MainAPI
-    override var mainUrl = "https://rentry.org/"
-    override var name = "One Pace"
+class RVProvider : MainAPI() { // all providers must be an instance of MainAPI
+    override var mainUrl = "https://www.radiovatani.com/"
+    override var name = "Persian World"
 
     override val hasMainPage = true
 
     override var lang = "en"
-    override val hasDownloadSupport = true
+    override val hasDownloadSupport = false
 
     override val supportedTypes = setOf(
         TvType.Anime,
+        TvType.Movie,
+        TvType.TvSeries,
+        TvType.AsianDrama
     )
 
     override val mainPage = mainPageOf(
-        "/onepace/" to "OnePace",
-        )
-
+        "fill1.html" to "Movies",
+        "sell1.html" to "TV Shows",
+    )
 
     override suspend fun getMainPage(page: Int, request: MainPageRequest): HomePageResponse {
         val link = "$mainUrl${request.data}"

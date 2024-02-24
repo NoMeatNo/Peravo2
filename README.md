@@ -1,3 +1,7 @@
+### This Repo inspired by Rowdy-Avocado/Rowdycado-Extensions  
+  
+  
+The following are from their repo just to respect the Intelectual property:
 ### The Only Repo That Contains Audio Books
 
 [![Discord](https://invidget.switchblade.xyz/yMTTkJFEZ9)](https://discord.gg/yMTTkJFEZ9)
