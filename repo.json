@@ -1,0 +1,8 @@
+{
+  "name": "Peravos Extensions",
+  "description": "This Repo Contains More",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://raw.githubusercontent.com/NoMeatNo/Peravo2/builds/plugins.json"
+  ]
+}
