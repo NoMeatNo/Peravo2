@@ -21,6 +21,7 @@ cloudstream {
         "TvSeries",
         "Anime",
         "Movie",
+        "Live",
     )
 
     iconUrl = "https://raw.githubusercontent.com/NoMeatNo/Peravo2/master/logos/peravo2.png"
